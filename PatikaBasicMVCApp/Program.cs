@@ -8,6 +8,6 @@ app.UseStaticFiles(); // Using static files
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=CustomerOrders}/{action=Index}/{id?}"); // Routing Configuration
+    pattern: "{controller=Home}/{action=Index}/{id?}"); // Routing Configuration
 
 app.Run();

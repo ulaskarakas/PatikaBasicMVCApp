@@ -17,7 +17,7 @@ namespace PatikaBasicMVCApp.Controllers
 
             var customerOneOrders = new List<Order>
             {
-                new Order { Id = 1, ProductName = "Laptop", Price = 1500.00m, Quantity = 1 },
+                new Order { Id = 1, ProductName = "Laptop", Price = 300.00m, Quantity = 1 },
                 new Order { Id = 2, ProductName = "Mouse", Price = 25.99m, Quantity = 2 },
                 new Order { Id = 3, ProductName = "Keyboard", Price = 75.50m, Quantity = 1 }
             };
